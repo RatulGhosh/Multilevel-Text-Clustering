@@ -17,20 +17,37 @@ pip install -r requirements.txt
 ```
 Run directly on google colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zi76bCNJ1icCDizG6pvjFZvEuMZvqB2S?usp=sharing) 
+First level clustering           |  Cultering on electronics & clothing items
+:-------------------------:|:-------------------------:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zi76bCNJ1icCDizG6pvjFZvEuMZvqB2S?usp=sharing)   |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q5ypw61btwp0E7odg_ggFxVrDwPvGSMC?usp=sharing) 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q5ypw61btwp0E7odg_ggFxVrDwPvGSMC?usp=sharing) 
+
 
 #### Results:
-Here we tried doing clustering using only the product's description and tried creating a taxonomy. We used Sentence-BERT which fine-tune BERT for the semantic similarity between sentences using a siamese network structure. Sentence-BERT takes the product description as an input and outputs a fixed-sized vector representing the semantic of that sentence. We then use that vector to categorize these products into multiple clusters. Our preliminary analysis shows there is a total of 9 categories. 
+Here we tried doing clustering using only the product's description and tried creating a taxonomy. We used [Sentence-BERT](https://arxiv.org/pdf/1908.10084.pdf) which fine-tune BERT for the semantic similarity between sentences using a siamese network structure. Sentence-BERT takes the product description as an input and outputs a fixed-sized vector representing the semantic of that sentence. We then use that vector to categorize these products into multiple clusters. Our preliminary analysis shows there is a total of 9 categories. 
 Then we filtered all the product descriptions from two categories Electronics and Clothing and did another level of clustering on each of those.  
 * Electronics are getting clustered into categories camera, audio devices, computers, computer accessories, and phone.
 * Clothing is getting clustered into winterwear, bottom-wear, womenswear, and footwear.
 
-The figures below show some of the clusters for electronics.
+The figures below show some of the clusters for electronics and clothes.
 
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/audios.png)
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/cameras.png)
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/pc.png)
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/pc%20accesories.png)
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/phones.png)
+#### ***Clustering on electronics items:***
+Audio Devices            |  Camera & Lens
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/audios.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/cameras.png)
+
+PC related          |  Phones & Accesories 
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/pc.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/phones.png)
+
+#### ***Clustering on clothing items:***
+Audio Devices            |  Camera & Lens
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/audios.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/cameras.png)
+
+PC related          |  Phones & Accesories 
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/pc.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/phones.png)
+
+
+
