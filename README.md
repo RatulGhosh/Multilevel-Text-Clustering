@@ -41,9 +41,7 @@ PC related          |  Phones & Accesories
 ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/pc.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/phones.png)
 
 #### ***Clustering on clothing items:***
-Audio Devices            |  Camera & Lens
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/audios.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/cameras.png)
+
 
 Bottomwear          |  Shoes
 :-------------------------:|:-------------------------:
