@@ -45,9 +45,13 @@ Audio Devices            |  Camera & Lens
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/audios.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/cameras.png)
 
-PC related          |  Phones & Accesories 
+Bottomwear          |  Shoes
 :-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/pc.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/phones.png)
+![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/bottom_wear.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/footwear.png)
+
+Womenswear          |  Winter Clothes
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/womenswear.png)  |  ![](https://raw.githubusercontent.com/RatulGhosh/Multilevel-Text-Clustering/main/demos/winter_wear.png)
 
 
 
