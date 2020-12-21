@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 Run directly on google colab:
 
-First level clustering           |  Cultering on electronics & clothing items
+First level clustering           |  Clustering on electronics & clothing items
 :-------------------------:|:-------------------------:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zi76bCNJ1icCDizG6pvjFZvEuMZvqB2S?usp=sharing)   |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q5ypw61btwp0E7odg_ggFxVrDwPvGSMC?usp=sharing) 
 
